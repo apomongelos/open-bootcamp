@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ContactList from './components/container/contact_list';
+import Clock from './components/container/clock';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         >
           Learn React
         </a> */}
-        <ContactList></ContactList>
+        {/* <ContactList></ContactList> */}
+        <Clock></Clock>
       </header>
     </div>
   );
