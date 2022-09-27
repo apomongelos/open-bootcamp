@@ -2,12 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import ContactList from './components/container/contact_list';
 import Clock from './components/container/clock';
+import Square from './components/pure/square';
 
 function App() {
   return (
     <div className="App">
       {/* <header className="App-header"> */}
-        {/* <img src={logo} className="App-logo" alt="logo" />
+      {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,9 +20,10 @@ function App() {
         >
           Learn React
         </a> */}
-        <ContactList></ContactList>
-        {/* <Clock></Clock> */}
+      {/* <ContactList></ContactList> */}
+      {/* <Clock></Clock> */}
       {/* </header> */}
+      <Square></Square>
     </div>
   );
 }
