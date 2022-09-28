@@ -20,10 +20,10 @@ function App() {
         >
           Learn React
         </a> */}
-      {/* <ContactList></ContactList> */}
+      <ContactList></ContactList>
       {/* <Clock></Clock> */}
       {/* </header> */}
-      <Square></Square>
+      {/* <Square></Square> */}
     </div>
   );
 }

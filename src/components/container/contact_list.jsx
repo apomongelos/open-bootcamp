@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Contact } from '../../models/contact.class';
 import ContactComponent from '../pure/contact';
 import ContactForm from '../pure/forms/contactForm';
+import ContactFormik from '../pure/forms/contactFormik';
 
 const ContactList = () => {
     const defaultContact1 = new Contact('Fernando', 'Casa', 'fer@correo.com', false);
@@ -75,7 +76,7 @@ const ContactList = () => {
                     </div>
                 </div>
             </div>
-            <ContactForm add={addContact}></ContactForm>
+            <ContactFormik add={addContact}></ContactFormik>
         </div>
     );
 };
