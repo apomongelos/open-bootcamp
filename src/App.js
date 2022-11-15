@@ -14,6 +14,8 @@ import LoginPage from './pages/login/LoginPage';
 import TaskDashBoard from './pages/dashboard/TaskDashBoard';
 import RegisterPage from './pages/register/RegisterPage';
 
+import Card from './components/pure/card';
+
 function App() {
   return (
     <Router>
@@ -35,12 +37,13 @@ function App() {
         {/* <Clock></Clock> */}
         {/* </header> */}
         {/* <Square></Square> */}
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Navigate to="/login" replace />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/registro" element={<RegisterPage />} />
           <Route path="/dashboard" element={<TaskDashBoard />} />
-        </Routes>
+        </Routes> */}
+        <Card></Card>
       </div>
     </Router>
   );
